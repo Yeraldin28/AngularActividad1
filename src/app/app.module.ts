@@ -2,13 +2,17 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { FormsModule } from '@angular/forms';
+import { EjercicioParImparComponent } from './components/ejercicio-par-impar/ejercicio-par-impar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EjercicioParImparComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
